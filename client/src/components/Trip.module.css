@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+
+
+.container{
+	padding: 50px;
+	width: 1300px;
+    min-height: 100vh;
+	background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+	font-family: 'Original Surfer', cursive;
+	background-size:cover;
+    opacity: initial;
+    text-align: center;
+    align-items: center;
+    color: rgb(71, 41, 2);
+}
+.nav {
+    min-width: 1500px;
+    display: inline-flex;
+    padding: 20px;
+    margin-right: 10px;
+}
+.btnM {
+    border-radius: 10px;
+    width: 60px;
+    height: 30px;
+    font-size: 0.9rem;
+    background-color: rgb(238, 117, 3);
+    color: rgb(71, 41, 2);
+}
+
+/* all trips */
+table{
+    width: 1300px;
+}
+table, th, td {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 70px;
+    border: 2px solid  rgb(207, 151, 28);
+    font-size: 1.3rem;
+}
+th, td {
+    padding: 5px;
+}
+
+/* new trip */
+.container_new {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50px;
+}
+
+/* weather */
+.weather {
+    margin-left: 90px;
+    width: 220px;
+    padding: 20px;
+    background-color: gold;
+    border-radius: 50%;
+    font-size: 0.9rem;
+
+}
+.display{
+    margin-left: 130px;
+    width: 200px;
+    height: 150px;
+    padding: 35px;
+    border-radius: 50%;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8a3iIyHad04UbQEJAI1KdEytj8qIwivg0-7sy01atPMoS0jiWWgicO4bOEdNrYOV2nQQ&usqp=CAU");
+    color: #ffffff;
+}
